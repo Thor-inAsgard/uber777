@@ -1,0 +1,10 @@
+@mixin opz($fz, $color, $ttu) {
+    font-size: $fz;
+    color: $color;
+    text-transform: $ttu;
+  }
+  @mixin text($fz, $fw, $color) {
+    font-size: $fz;
+    font-weight: $fw;
+    color: $color;
+  }
